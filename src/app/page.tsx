@@ -3,7 +3,8 @@ import { Card, Card2, Card3 } from "./components/Card";
 import { Frame1, Frame2, Frame3 } from "./components/Frames";
 import Footer from "./components/Footer";
 
-
+import  figma from "./../../assests/figma.PNG"
+import figmaW from "./../../assests/figmaW.PNG"
 
 
 export default function Home() {
@@ -23,8 +24,7 @@ export default function Home() {
     </div>
 
       <div className="w-[700px] h-[700px]">
-         <Image src={require('../../assests/figma.PNG')} alt="" className="transparent"></Image>
-        
+         <Image src={figma} alt="" className="transparent"></Image>
       </div>
     </div>
     {/* section 2 */}
@@ -41,14 +41,14 @@ export default function Home() {
                          <img src="https://img.icons8.com/?size=30&id=99982&format=png" alt="" className='w-5 ml-2' /></button>
     </div>
     <div className="w-[700px] h-[700px]">
-        <Image src={require('../../assests/figmaW.PNG')} alt="image" className="transparent"></Image>
+        <Image src={figmaW} alt="image" className="transparent"></Image>
       </div>
 </div>
 {/* section 3 */}
 <div  className=" flex bg-white bg-fixed w-full h-[600px] pt-[120px] pr-[120px] pl-[120px] gap-40">
 
 <div className="w-[700px] h-[700px]">
-        <Image src={require('../../assests/figmaW.PNG')} alt="" className="transparent"></Image> 
+        <Image src={figmaW} alt="" className="transparent"></Image> 
         
       </div>  
 <div className="text-black">
@@ -72,14 +72,14 @@ export default function Home() {
                          <img src="https://img.icons8.com/?size=30&id=99982&format=png" alt="" className='w-5 ml-2' /></button>
     </div>
     <div className="w-[700px] h-[700px]">
-        <Image src={require('../../assests/figma.PNG')} alt="" className="transparent"></Image>
+        <Image src={figma} alt="" className="transparent"></Image>
       </div>
 </div>
 {/* setion5 */}
 <div  className=" flex bg-white bg-fixed w-full h-[600px] pt-[120px] pr-[120px] pl-[120px] gap-40">
 
 <div className="w-[700px] h-[700px]">
-        <Image src={require('../../assests/figmaW.PNG')} alt="" className="transparent"></Image>
+        <Image src={figmaW} alt="" className="transparent"></Image>
       </div>  
 <div className="text-black">
         <h1 className=" font-extrabold text-4xl mb-12"> Customize it to <br /> your needs</h1>
@@ -131,7 +131,7 @@ export default function Home() {
                          <img src="https://img.icons8.com/?size=30&id=99982&format=png" alt="img" className='w-5 ml-2' /></button>
     </div>
     <div className="w-[700px] h-[700px]">
-        <Image src={require("../../assests/figmaW.PNG")} alt="" className="transparent"></Image>
+        <Image src={figmaW} alt="" className="transparent"></Image>
       </div>
 </div>
   {/* section 9 */}
@@ -152,7 +152,7 @@ className="w-20 h-20" alt="" />
 <div  className=" flex bg-black bg-fixed w-full h-[500px] pt-20   pr-[120px] pl-[120px] gap-40">
 
 <div className="w-[700px] h-[700px]">
-        <Image src={require('../../assests/figma.PNG')} alt="" className="transparent"></Image>
+        <Image src={figma} alt="" className="transparent"></Image>
       </div>
       <div>
         <h1 className=" font-extrabold text-green-500 text-4xl mb-12">Work With Your <br /> Favourite Apps Using 
