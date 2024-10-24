@@ -199,9 +199,7 @@ className="w-20 h-20" alt="" /></div>
   <Footer />
 </div>
 
-   
-
-
+  
 </div>
     )}
 
